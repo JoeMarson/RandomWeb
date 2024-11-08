@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+}
+
+.center {
+    height: 100px;
+    min-width: 300px;
+    width: 300px;
+    display: block;
+    background-color: blue;
+    padding: 80px 0;
+    text-align: center;
+}
+
+#btn {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.5s ease;
+    color: red;
+}
